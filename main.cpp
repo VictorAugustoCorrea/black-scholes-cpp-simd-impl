@@ -229,8 +229,8 @@ int main(const int argc, char** argv) {
 
     std::random_device rd;
     std::mt19937 rng(rd());
-    std::uniform_real_distribution dist_price(50.0f, 150.0f);
-    std::uniform_real_distribution dist_time(0.10f, 2.0f);
+    std::uniform_real_distribution<float> dist_price(50.0f, 150.0f);
+    std::uniform_real_distribution<float> dist_time(0.10f, 2.0f);
 
     for (int i = 0; i < nopt; ++i) {
         s0[i] = dist_price(rng);

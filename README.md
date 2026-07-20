@@ -50,13 +50,13 @@ The optimized version derives `put` from `call` via put-call parity (`put = call
 
 ## Parameters
 
-| Parameter | In code   | Description                  |
-|-----------|-----------|-------------------------------|
-| `S`       | `s0[i]`   | Current stock price          |
-| `K`       | `x[i]`    | Strike price                 |
-| `T`       | `t[i]`    | Time to maturity (years)     |
-| `r`       | `r`       | Risk-free interest rate      |
-| `sigma`   | `sig`     | Volatility                   |
+| Parameter | In code | Description              |
+|-----------|---------|--------------------------|
+| `S`       | `s0[i]` | Current stock price      |
+| `K`       | `x[i]`  | Strike price             |
+| `T`       | `t[i]`  | Time to maturity (years) |
+| `r`       | `r`     | Risk-free interest rate  |
+| `sigma`   | `sig`   | Volatility               |
 
 ---
 
